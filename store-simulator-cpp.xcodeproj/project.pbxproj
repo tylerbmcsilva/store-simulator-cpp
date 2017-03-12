@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		446094691E75E04F009B5775 /* store-simulator-cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "store-simulator-cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4460946C1E75E04F009B5775 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		446094731E75E3B1009B5775 /* Customer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Customer.hpp; sourceTree = "<group>"; };
+		446094741E75E3B1009B5775 /* Product.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Product.hpp; sourceTree = "<group>"; };
+		446094751E75E3B1009B5775 /* Store.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Store.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,9 @@
 		4460946B1E75E04F009B5775 /* store-simulator-cpp */ = {
 			isa = PBXGroup;
 			children = (
+				446094731E75E3B1009B5775 /* Customer.hpp */,
+				446094741E75E3B1009B5775 /* Product.hpp */,
+				446094751E75E3B1009B5775 /* Store.hpp */,
 				4460946C1E75E04F009B5775 /* main.cpp */,
 			);
 			path = "store-simulator-cpp";
