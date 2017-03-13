@@ -1,10 +1,8 @@
-//
-//  main.cpp
-//  store-simulator-cpp
-//
-//  Created by Tyler Silva on 3/12/17.
-//  Copyright © 2017 Tyler McSilva. All rights reserved.
-//
+/*
+ Title: Main
+ Date: 03/12/17
+ Descrition: Main file used for testing
+ */
 
 #include <iostream>
 #include "Store.hpp"
@@ -23,19 +21,20 @@ int main(int argc, const char * argv[]) {
 
     Product *p1 = new Product("111","Hat","A red, yellow or blue hat",20.99,2);
     Product *p2 = new Product("222", "Glasses", "A red, yellow or blue pair of glasses", 39.99, 1);
-    Product *p3 = new Product("333", "Beer", "A green beer", 2.00, 6);
+    Product *p3 = new Product("333", "Beer", "A Green beer", 2.00, 6);
     store.addProduct(p1);
     store.addProduct(p2);
     store.addProduct(p3);
     
     store.productSearch("red");
-    store.productSearch("green");
+    store.productSearch("Green");
     store.productSearch("hazel");
     
     store.addProductToMemberCart(p1->getIdCode(), mem1->getAccountID());
     store.addProductToMemberCart(p1->getIdCode(), mem1->getAccountID());
     
     store.addProductToMemberCart(p2->getIdCode(), mem2->getAccountID());
+    store.addProductToMemberCart(p1->getIdCode(), mem2->getAccountID());
     
     store.addProductToMemberCart(p3->getIdCode(), mem3->getAccountID());
     store.addProductToMemberCart(p3->getIdCode(), mem3->getAccountID());

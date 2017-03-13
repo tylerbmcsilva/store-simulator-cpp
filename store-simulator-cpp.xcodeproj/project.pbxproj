@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4460946D1E75E04F009B5775 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4460946C1E75E04F009B5775 /* main.cpp */; };
+		4460946D1E75E04F009B5775 /* storeMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4460946C1E75E04F009B5775 /* storeMain.cpp */; };
 		446094771E75E5AF009B5775 /* Customer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 446094761E75E5AF009B5775 /* Customer.cpp */; };
 		446094791E75E5C2009B5775 /* Product.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 446094781E75E5C2009B5775 /* Product.cpp */; };
 		4460947B1E75E5CC009B5775 /* Store.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4460947A1E75E5CC009B5775 /* Store.cpp */; };
+		4460947D1E763ACE009B5775 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4460947C1E763ACE009B5775 /* makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,13 +28,14 @@
 
 /* Begin PBXFileReference section */
 		446094691E75E04F009B5775 /* store-simulator-cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "store-simulator-cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4460946C1E75E04F009B5775 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4460946C1E75E04F009B5775 /* storeMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = storeMain.cpp; sourceTree = "<group>"; };
 		446094731E75E3B1009B5775 /* Customer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Customer.hpp; sourceTree = "<group>"; };
 		446094741E75E3B1009B5775 /* Product.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Product.hpp; sourceTree = "<group>"; };
 		446094751E75E3B1009B5775 /* Store.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Store.hpp; sourceTree = "<group>"; };
 		446094761E75E5AF009B5775 /* Customer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Customer.cpp; sourceTree = "<group>"; };
 		446094781E75E5C2009B5775 /* Product.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Product.cpp; sourceTree = "<group>"; };
 		4460947A1E75E5CC009B5775 /* Store.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Store.cpp; sourceTree = "<group>"; };
+		4460947C1E763ACE009B5775 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +71,11 @@
 				446094731E75E3B1009B5775 /* Customer.hpp */,
 				446094741E75E3B1009B5775 /* Product.hpp */,
 				446094751E75E3B1009B5775 /* Store.hpp */,
-				4460946C1E75E04F009B5775 /* main.cpp */,
+				4460946C1E75E04F009B5775 /* storeMain.cpp */,
 				446094761E75E5AF009B5775 /* Customer.cpp */,
 				446094781E75E5C2009B5775 /* Product.cpp */,
 				4460947A1E75E5CC009B5775 /* Store.cpp */,
+				4460947C1E763ACE009B5775 /* makefile */,
 			);
 			path = "store-simulator-cpp";
 			sourceTree = "<group>";
@@ -134,10 +137,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4460946D1E75E04F009B5775 /* main.cpp in Sources */,
+				4460946D1E75E04F009B5775 /* storeMain.cpp in Sources */,
 				446094791E75E5C2009B5775 /* Product.cpp in Sources */,
 				446094771E75E5AF009B5775 /* Customer.cpp in Sources */,
 				4460947B1E75E5CC009B5775 /* Store.cpp in Sources */,
+				4460947D1E763ACE009B5775 /* makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
