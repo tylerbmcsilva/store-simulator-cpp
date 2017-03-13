@@ -3,8 +3,7 @@
 
 #include <string>
 
-class Product
-{
+class Product {
 private:
     std::string idCode;
     std::string title;

@@ -4,8 +4,7 @@
 #include <vector>
 #include "Product.hpp"
 
-class Customer
-{
+class Customer {
 private:
    std::vector<std::string> cart;
    std::string name;

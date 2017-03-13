@@ -3,9 +3,9 @@
 
 #include <string>
 #include "Customer.hpp"
+#include "Product.hpp"
 
-class Store
-{
+class Store {
 private:
     std::vector<Product*> inventory;
     std::vector<Customer*> members;
